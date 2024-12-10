@@ -69,3 +69,15 @@ var X=40;
 var TWT=prompt("WRITE A TWEET (MAX CHAR " + X + " ALLOWED)");
 var TWT=prompt("YOU HAVE WRITTEN ||" +TWT.length+ "|| **" + TWT.slice(0,X) + "** THE LIMIT IS " +X);
 ```
+
+## 85.CHANGING CHASING
+```JavaScript
+
+var X=prompt("WRITE SMTH")
+// alert(X.toUpperCase() +" "+ X.toLowerCase())
+// X="ye achha tha guru";
+Y=X.slice(0,1) 
+Z=X.slice(1,X.length)
+// alert(X=Y.toUpperCase() + Z.toLowerCase() );
+alert("HELLO " +(X=Y.toUpperCase() + Z.toLowerCase()) );
+```
