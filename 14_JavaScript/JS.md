@@ -24,6 +24,7 @@ var name="Abhay";
 alert (name);
 name="I Win";
 alert (name);
+
 ```
 
 ## 78.1 game
@@ -35,4 +36,12 @@ PLAYER=PLAYER.toUpperCase()
 //PLAYER WHAT WOULD YOU CHOSE TRUTH OR DARE
 var CHOISE=prompt("SO," + PLAYER + " DO YOU EJACULATE", "YES OR NO" )
 
+```
+
+## 82. String Concatenation
+```JavaScript
+
+var MSG="HELLO"
+var NM="KITTY"
+alert(MSG+" THERE, "+NM)
 ```
