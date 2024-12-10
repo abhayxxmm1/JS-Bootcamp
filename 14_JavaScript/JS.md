@@ -236,3 +236,33 @@ var x=(365*90)-(age*365)
 
 Lifeinweeks(56);
 ```
+
+## 99.random number generator
+```javascript
+
+/*var n = Math.random()
+n = n*6;
+n = Math.floor(n) +1;
+console.log(n);*/
+
+
+
+/*var n=prompt("enter your name");
+var m=prompt("another person name");
+var r = Math.random()
+// r = r*100;
+r = Math.floor(r*100)+1;
+alert("the bond between " + n + " and " + m + " is " + r + "%")*/
+
+var n=prompt("enter your name");
+var m=prompt("another person name");
+var r = Math.random()
+// r = r*100;
+r = Math.floor(r*100)+1;
+if (r >= 50){
+    alert ("your lv is " +r+ " %, like rome lvs jul")
+} else {
+    alert ("the bond between " + n + " and " + m + " is " + r + "%")
+}
+// alert("the bond between " + n + " and " + m + " is " + r + "%")
+```
