@@ -193,3 +193,46 @@ function n(){
 
    */
 ```
+
+## 93.Parameters and arguments
+```javascript
+
+/*function getMilk(money) {   
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+
+   // var noofbottles=Math.floor(money/1.5);
+    console.log("Bought " + Math.floor(money/1.5) + " milk bottle ");
+
+    
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
+
+getMilk(301)*/
+
+//crlt + R for clearing console
+function Lifeinweeks(age){
+var x=(365*90)-(age*365)
+    var y=(52*90)-(age*52)
+    var z=(12*90)-(age*12)
+    console.log ("you have " + x +" days, " + y + " weeks, and " + z + " months left.")
+
+}
+
+Lifeinweeks(56);
+```
