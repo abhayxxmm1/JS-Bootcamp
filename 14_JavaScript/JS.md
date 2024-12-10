@@ -1,5 +1,14 @@
 # Inside dev tools [F12] in  Sources -> Snippets
 
+## index.js
+```javascript
+
+alert("This is Script for actor's");
+alert("mosaic->Netspace->Firefox by Marck Andreessen");
+window.alert("Then he contracted with Brenden Eich Who Created the Javascript in 10 Days");
+alert("")
+```
+
 ## 77.Data types
 ```JavaScript
 
