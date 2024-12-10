@@ -24,7 +24,6 @@ var name="Abhay";
 alert (name);
 name="I Win";
 alert (name);
-
 ```
 
 ## 78.1 game
@@ -35,7 +34,6 @@ var PLAYER=prompt("ENTER YOUR NAME","FULL NAME")
 PLAYER=PLAYER.toUpperCase()
 //PLAYER WHAT WOULD YOU CHOSE TRUTH OR DARE
 var CHOISE=prompt("SO," + PLAYER + " DO YOU EJACULATE", "YES OR NO" )
-
 ```
 
 ## 82. String Concatenation
@@ -56,4 +54,18 @@ alert ("YOU HAVE WRITTEN " + TWT.length + " CHAR AND REMAINING CHAR ARE " + Z);
 
 var NM='ABHAYFK'
 alert(NM.length)
+```
+
+## 84.Slicing and Extracting Parts of a String
+```JavaScript
+
+/*var X=200,Z;
+var TWT=prompt("WRITE A TWEET (MAX CHAR " + X + " ALLOWED)" );
+Z=X.length=X-TWT.length;
+alert ("YOU HAVE WRITTEN " + TWT.length + " CHAR AND REMAINING CHAR ARE " + Z);
+alert (TWT.slice(0,200))
+*/
+var X=40;
+var TWT=prompt("WRITE A TWEET (MAX CHAR " + X + " ALLOWED)");
+var TWT=prompt("YOU HAVE WRITTEN ||" +TWT.length+ "|| **" + TWT.slice(0,X) + "** THE LIMIT IS " +X);
 ```
