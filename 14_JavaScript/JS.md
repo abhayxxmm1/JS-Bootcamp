@@ -45,3 +45,15 @@ var MSG="HELLO"
 var NM="KITTY"
 alert(MSG+" THERE, "+NM)
 ```
+
+## 83.String Lengths and Retrieving the Number of Characters
+```JavaScript
+
+var X=400,Z;
+var TWT=prompt("WRITE A TWEET (MAX CHAR " + X + " ALLOWED)" );
+Z=X.length=X-TWT.length;
+alert ("YOU HAVE WRITTEN " + TWT.length + " CHAR AND REMAINING CHAR ARE " + Z);
+
+var NM='ABHAYFK'
+alert(NM.length)
+```
