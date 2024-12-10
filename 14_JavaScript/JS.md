@@ -90,3 +90,106 @@ var dogAge=prompt("write the dogAge")
 var humanAge=((dogAge-2)*4)+21
 alert("your dog is " + humanAge + " years old in human age")
 ```
+
+## 88.Functions: creating and calling them
+```JavaScript
+
+function getoff() {
+console.log("stand up")
+console.log("climb right")
+console.log("walk forward")
+console.log("get down")
+console.log("move right")
+console.log("got to door")
+}
+getoff();
+
+
+/* 
+https://stanford.edu/~cpiech/karel/ide.html
+
+function main(){
+   //your code here
+   n();
+   n();
+   n();
+   n();
+   m();
+   return();
+}
+function m(){
+ move();
+ move();
+ move();
+ turnLeft();
+ move();
+ move();
+ move();
+ turnLeft();
+ move();
+ move();
+ turnLeft();
+ move();
+ move();
+ turnLeft();
+ move();
+ turnLeft();
+ move();
+}
+function n(){
+   //your code here
+   move();
+   move();
+   move();
+   move();
+   turnLeft();
+   move();
+   move();
+   move();
+   move();
+   turnLeft();
+}
+function return(){
+   turnLeft();
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+   turnLeft();
+   move();move();turnLeft();
+   move();move();turnLeft();
+   move();move();move();turnLeft();
+   move();move();move();turnLeft();
+   move();move();move();move();turnLeft();
+   move();move();move();move();turnLeft();
+   move();move();move();move();turnLeft();
+   }
+   
+   for chessboard
+
+   function main(){
+   //your code here
+   m();
+   n();
+   m();
+   n();
+   m();
+}
+function m(){
+putBeeper();
+move();move();putBeeper();
+move();move();putBeeper();
+turnLeft();
+
+}
+function n(){
+   move();
+   turnLeft();
+   move();putBeeper(); 
+   move();move();putBeeper();
+   move();turnLeft();turnLeft();turnLeft();
+   move();turnLeft();turnLeft();turnLeft();
+   }
+
+   */
+```
