@@ -81,3 +81,12 @@ Z=X.slice(1,X.length)
 // alert(X=Y.toUpperCase() + Z.toLowerCase() );
 alert("HELLO " +(X=Y.toUpperCase() + Z.toLowerCase()) );
 ```
+
+## 87.Arithmatic and modulo
+```JavaScript
+
+//Dog age to human age 
+var dogAge=prompt("write the dogAge")
+var humanAge=((dogAge-2)*4)+21
+alert("your dog is " + humanAge + " years old in human age")
+```
